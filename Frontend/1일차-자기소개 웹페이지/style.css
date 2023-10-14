@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Gaegu';
+}
+
+#title-area {
+
+}
+
+#title {
+    color: rgb(120, 216, 245);
+    font-size: 2rem;
+}
+
+#start-button {
+    font-size: 2rem;
+}
+
+.feature {
+    font-size: 1.2rem;
+}
+
+#name {
+    color: rgb(53, 156, 215);
+}
+
+.images {
+    width: 250px;
+}
+
+#image-caption {
+    font-size: 1rem;
+    color: rgb(146, 145, 145);
+}
