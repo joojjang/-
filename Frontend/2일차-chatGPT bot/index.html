@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script scr="./index.js"></script>
+    <div class="container">
+        <div class="header">
+            <h3>Minjoo's chatGPT bot</h3>        
+        </div>
+
+        <div class="info">
+            <a href="https://github.com/joojjang/2023-2-Haedal_Web_Course/tree/main/Frontend/2%EC%9D%BC%EC%B0%A8-chatGPT%20bot" target="_blank">Made by Minjoo</a>
+        </div>
+
+        <div class="chat-container">
+            <div id="chat-log"></div>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Send a message." />
+            <button id="send-button"><i class="fa-solid fa-paper-plane" id="button-icon"></i></button>
+        </div>
+    </div>
 
     <script src="https://kit.fontawesome.com/3e0f5a793b.js" crossorigin="anonymous"></script> 
-    <i class="fa-brands fa-figma"></i>
-
+    <script src="./index.js"></script>
 </body>
 </html>
